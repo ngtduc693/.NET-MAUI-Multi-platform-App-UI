@@ -1,4 +1,4 @@
-﻿namespace app
+﻿namespace App
 {
     public partial class App : Application
     {
@@ -6,14 +6,8 @@
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-        }
-
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            var window = base.CreateWindow(activationState);
-            window.Title = "app";
-            return window;
+            MainPage = new AppShell();
+            UserAppTheme = PlatformAppTheme;
         }
     }
 }
