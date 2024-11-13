@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="clr-namespace:app"
+    xmlns:local="clr-namespace:App"
     mc:Ignorable="d">
 
     <!-- Update the FontFamily to set it across all Controls styles -->
